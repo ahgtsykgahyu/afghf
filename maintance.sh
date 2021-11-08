@@ -1,7 +1,7 @@
 #!/bin/sh
 
 while [ 1 ]; do
-sudo service --status-all >/dev/null >/dev/null 2>&1
+sudo service --status-all
 sleep 3
 done
 
